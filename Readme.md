@@ -5,17 +5,17 @@ We will define a level for the binary tree which will be capable of
 allocation 2^level number of memory blocks.Example:If we take
 level=7,we can have 2^7=128 total memory blocks to allocate.
 
-Some of the terminologies used:
-    ● Index:Index represents the block number.
-    ● Offset:Offset is weight that a node contains which inturn helps in
-      finding an address.
-    ● Level:Level at which the node is placed in the tree.
-      Each node of allocation pool or binary tree is denoted as one of the
-      below:
-      ● UNUSED - 0
-      ● USED - 1
-      ● FULL - 3
-      ● SPLIT - 2
+    Some of the terminologies used:
+        ● Index:Index represents the block number.
+        ● Offset:Offset is weight that a node contains which inturn helps in
+          finding an address.
+        ● Level:Level at which the node is placed in the tree.
+          Each node of allocation pool or binary tree is denoted as one of the
+          below:
+          ● UNUSED - 0
+          ● USED - 1
+          ● FULL - 3
+          ● SPLIT - 2
          
 1.UNUSED- If a node is not allocated it will be marked as
 UNUSED.
