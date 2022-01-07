@@ -18,9 +18,12 @@ level=7,we can have 2^7=128 total memory blocks to allocate.
           ● SPLIT - 2
          
 1.UNUSED- If a node is not allocated it will be marked as
-UNUSED.Initially all the nodes will be marked as UNUSED.
+UNUSED.
+Initially all the nodes will be marked as UNUSED.
 2.USED-If a node is allocated it will be marked as USED.
+
 3.FULL-If both the childs of a node are USED then the node will be
 marked as FULL.
+
 4.SPLIT:If any one of the child of a node is available to allocate
 memory,then the node will be marked as SPLIT.
